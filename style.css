@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color: #03A9F4;
+  --secondary-color: #FFC107;
+  --button-bg: #2196F3;
+  --card-bg: #FFFFFF;
+  --text-color: #455A64;
+}
+body {
+  min-height: 100vh;
+    font-size: 15pt;
+ font-family: Open Sans;
+ font-weight: 500;
+ background: var(--card-bg);
+}
+nav{
+  width: 100%;
+ 
+}
+p{
+  color: var(--text-color);
+}
