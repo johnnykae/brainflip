@@ -126,11 +126,14 @@ div.google{
   font-weight: 500;
   transition: all .2s ease;
 }
-form .grp:hover :not(form .grp:hover button){
+form .grp:hover{
   border: 2px solid var(--button-bg);
 }
 form button:hover{
   background: rgba(16, 25, 127, 0.8);
+}
+form .grp.sign:hover{
+  border:none;
 }
 div.google{
   border: 2px solid var(--secondary-color);
