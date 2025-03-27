@@ -32,7 +32,7 @@
     <h1>Sign Up</h1>
     <p class="first">Sign up and enjoy exclusive deals</p>
     <form class="signup">
-     <div class="grp google">
+     <div class="grp google" id="google">
         <span class="bx bxl-google"></span>
         <span>Sign Up With Google</span>
       </div>
@@ -45,20 +45,16 @@
         <span class="bx bx-user"></span>
         <input type="text" name="fName" id="fName" placeholder="Full name" required/>
       </div>
-      <div class="grp">
+      <div class="grp mail">
         <span class="bx bx-envelope"></span>
         <input type="email" name="email" id="email" placeholder="Email address" required/>
       </div>
+      <p id="error" class="bx bx-error"></p>
       <div class="grp">
   <span class="bx bx-lock"></span>
   <input type="password" name="pswd" id="pswd" placeholder="Password" minlength="6" required/>
   <span class="bx bx-show show"></span>
     </div>
-      <div class="grp">
-  <span class="bx bx-lock"></span>
-  <input type="password" name="pswd" id="pswd" placeholder="Confirm Password" minlength="6" required/>
-  <span class="bx bx-show show"></span>
-</div>
       <div class="grp sign">
       <button>Sign Up</button>
       </div>
@@ -72,5 +68,6 @@
   </main>
 
 </body>
+<script src="init.js" type="module"></script>
   <script src="./sign.js" type="module"></script>
 </html>
